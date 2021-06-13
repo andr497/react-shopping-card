@@ -12,12 +12,18 @@ export const Wrapper = styled.div`
   button{
     border-radius: 0 0 20px 20px;
   }
-  image{
-    max-height: 250px;
+  .contenedor-img{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    max-height: 350px;
+  }
+  img{
+    max-height: 350px;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
   }
-  div{
+  .contenedor-info{
     font-family: Arial, Helvetica, sans-serif;
     padding: 1rem;
     height: 100%;
